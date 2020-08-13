@@ -1,0 +1,160 @@
+#header-nav{
+	width: 100%;
+	text-align: center;
+	font-weight: 100px;
+	color: white;
+	background-color:grey;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 5px;
+	border: 2px solid black;
+
+
+}
+
+h1, .navbar-brand h1{
+	font-family: 'Rowdies', cursive;
+	font-size: 2.5em;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	
+	text-align: left;
+}
+.navbar-brand a:link , .navbar-brand a:visited ,.navbar-brand a:active , .navbar-brand a:hover{
+	text-decoration:none;
+}
+.col-sm-6{
+	float: left;
+	background-color: grey;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}
+.middle{
+	background-color: #aaa;
+	padding-left: 8px;
+
+}
+.row{
+	display: flex;
+}
+.row:after{
+	content: "";
+	column-count: 3;
+	column-gap: 40px;
+	clear: both;
+
+}
+#menu h1{
+	text-align: center;
+	color:black;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  font-family: 'Rowdies', cursive;
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a {
+  font-size: 1.8em;
+}
+.navbar-brand button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-brand button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/********** Large devices only ***********/
+@media (min-width: 1200px) {
+
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	 .col-sm-6{
+	 	width: 100%;
+	  	display: block;
+	    margin-bottom: 20px;
+	}
+	.row{
+		width: 100%;
+		display: block;
+	}
+  /* Home Page */
+ 
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .col-sm-6{
+  	width: 50%;
+  	display: block;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .col-sm-6{
+  	width: 100%;
+  	display: block;
+    margin-bottom: 20px;
+  }
+
+  /* End Header */
+  
+  /* Home page */
+}
